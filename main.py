@@ -2,6 +2,11 @@ import numpy as np
 import cv2
 import os
 import time
+from pytorch_i3d import InceptionI3d
+import torch
+from charades_dataset import load_rgb_frames, load_flow_frames, video_to_tensor
+import videotransforms
+from torchvision import transforms
 
 def save_images_to_video(frames_path, video_name, save_path):
     img=[]
@@ -19,6 +24,17 @@ def save_images_to_video(frames_path, video_name, save_path):
     # codec = chr(h&0xff) + chr((h>>8)&0xff) + chr((h>>16)&0xff) + chr((h>>24)&0xff)
 
 def main():
+    rgb_i3d = InceptionI3d(400, in_channels=3)
+    rgb_i3d.replace_logits(8)
+    rgb_i3d.load_state_dict(torch.load("./newmodels_info/Training1/rgb_anamoly005000.pt", map_location=torch.device("cpu")))
+    rgb_i3d.eval()
+    flow_i3d = InceptionI3d(400, in_channels=2)
+    flow_i3d.replace_logits(8)
+    flow_i3d.load_state_dict(torch.load("./newmodels_info/Training1/flow_anamoly005000.pt", map_location=torch.device("cpu")))
+    flow_i3d.eval()
+    cropTransform = transforms.Compose([videotransforms.CenterCrop(224)])
+    classes = ["Arson", "Assault", "Fighting", "RoadAccidents", "Shooting", "Stealing", "Vandalism", "Normal"]
+
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
         print("Cannot open camera")
@@ -60,8 +76,20 @@ def main():
         elif cv2.waitKey(1) == ord(' ') and recording == True:
             recording = False
             print("Finished recording to", temp_name)
-            temp_frame_count = 0
+
+            rgb_imgs = load_rgb_frames(save_dir, temp_name, 0, temp_frame_count)
+            rgb_imgs = cropTransform(rgb_imgs)
+            rgb_input = video_to_tensor(rgb_imgs)
+            rgb_input = rgb_input[None] # batch size of 1
+
+            with torch.no_grad():
+                rgb_prediction = rgb_i3d(rgb_input)
+            # prediction = (rgb_prediction + flow_prediction)/2.0
+            prediction = rgb_prediction
+            predicted_class = torch.max(prediction, dim=2)[0].argmax(1).item()
+            print(classes[predicted_class])
             temp_name = ""
+            temp_frame_count = 0
 
     # When everything done, release the capture
     cap.release()
