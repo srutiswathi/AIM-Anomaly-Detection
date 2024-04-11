@@ -1,0 +1,502 @@
+{
+  "Arson007_x264": {
+    "subset": "testing",
+    "duration": 115.0,
+    "actions": [[0, 0, 115.0]]
+  },
+  "Arson009_x264": {
+    "subset": "training",
+    "duration": 3.2,
+    "actions": [[0, 0, 3.2]]
+  },
+  "Arson010_x264": {
+    "subset": "training",
+    "duration": 11.5,
+    "actions": [[0, 0, 11.5]]
+  },
+  "Arson011_x264": {
+    "subset": "training",
+    "duration": 9.0,
+    "actions": [[0, 0, 9.0]]
+  },
+  "Arson016_x264": {
+    "subset": "training",
+    "duration": 26.5,
+    "actions": [[0, 0, 26.5]]
+  },
+  "Arson018_x264": {
+    "subset": "testing",
+    "duration": 11.0,
+    "actions": [[0, 0, 11.0]]
+  },
+  "Arson022_x264": {
+    "subset": "training",
+    "duration": 16.7,
+    "actions": [[0, 0, 16.7]]
+  },
+  "Arson035_x264": {
+    "subset": "training",
+    "duration": 10.0,
+    "actions": [[0, 0, 10.0]]
+  },
+  "Arson041_x264": {
+    "subset": "testing",
+    "duration": 49.5,
+    "actions": [[0, 0, 49.5]]
+  },
+  "Assault006_x264": {
+    "subset": "testing",
+    "duration": 230.4,
+    "actions": [[1, 0, 230.4]]
+  },
+  "Assault010_x264": {
+    "subset": "training",
+    "duration": 11.7,
+    "actions": [[1, 0, 11.7]]
+  },
+  "Assault011_x264": {
+    "subset": "training",
+    "duration": 19.5,
+    "actions": [[1, 0, 19.5]]
+  },
+  "Fighting003_x264": {
+    "subset": "testing",
+    "duration": 42.8,
+    "actions": [[2, 0, 42.8]]
+  },
+  "Fighting018_x264": {
+    "subset": "training",
+    "duration": 11.3,
+    "actions": [[2, 0, 11.3]]
+  },
+  "Fighting033_x264": {
+    "subset": "training",
+    "duration": 9.0,
+    "actions": [[2, 0, 9.0]]
+  },
+  "Fighting042_x264": {
+    "subset": "training",
+    "duration": 30.4,
+    "actions": [[2, 0, 30.4]]
+  },
+  "Fighting047_x264": {
+    "subset": "testing",
+    "duration": 54.3,
+    "actions": [[2, 0, 54.3]]
+  },
+  "RoadAccidents001_x264": {
+    "subset": "training",
+    "duration": 3.0,
+    "actions": [[3, 0, 3.0]]
+  },
+  "RoadAccidents002_x264": {
+    "subset": "training",
+    "duration": 2.0,
+    "actions": [[3, 0, 2.0]]
+  },
+  "RoadAccidents004_x264": {
+    "subset": "training",
+    "duration": 1.6,
+    "actions": [[3, 0, 1.6]]
+  },
+  "RoadAccidents009_x264": {
+    "subset": "training",
+    "duration": 1.0,
+    "actions": [[3, 0, 1.0]]
+  },
+  "RoadAccidents010_x264": {
+    "subset": "training",
+    "duration": 1.3,
+    "actions": [[3, 0, 1.3]]
+  },
+  "RoadAccidents011_x264": {
+    "subset": "training",
+    "duration": 1.4,
+    "actions": [[3, 0, 1.4]]
+  },
+  "RoadAccidents012_x264": {
+    "subset": "testing",
+    "duration": 4.7,
+    "actions": [[3, 0, 4.7]]
+  },
+  "RoadAccidents016_x264": {
+    "subset": "testing",
+    "duration": 6.3,
+    "actions": [[3, 0, 6.3]]
+  },
+  "RoadAccidents017_x264": {
+    "subset": "testing",
+    "duration": 2.3,
+    "actions": [[3, 0, 2.3]]
+  },
+  "RoadAccidents019_x264": {
+    "subset": "testing",
+    "duration": 5.0,
+    "actions": [[3, 0, 5.0]]
+  },
+  "RoadAccidents020_x264": {
+    "subset": "testing",
+    "duration": 4.0,
+    "actions": [[3, 0, 4.0]]
+  },
+  "RoadAccidents021_x264": {
+    "subset": "training",
+    "duration": 2.0,
+    "actions": [[3, 0, 2.0]]
+  },
+  "RoadAccidents022_x264": {
+    "subset": "training",
+    "duration": 3.3,
+    "actions": [[3, 0, 3.3]]
+  },
+  "RoadAccidents121_x264": {
+    "subset": "training",
+    "duration": 2.0,
+    "actions": [[3, 0, 2.0]]
+  },
+  "RoadAccidents122_x264": {
+    "subset": "training",
+    "duration": 2.0,
+    "actions": [[3, 0, 2.0]]
+  },
+  "RoadAccidents123_x264": {
+    "subset": "training",
+    "duration": 2.7,
+    "actions": [[3, 0, 2.7]]
+  },
+  "RoadAccidents124_x264": {
+    "subset": "testing",
+    "duration": 5.7,
+    "actions": [[3, 0, 5.7]]
+  },
+  "RoadAccidents125_x264": {
+    "subset": "testing",
+    "duration": 3.7,
+    "actions": [[3, 0, 3.7]]
+  },
+  "RoadAccidents127_x264": {
+    "subset": "training",
+    "duration": 4.7,
+    "actions": [[3, 0, 4.7]]
+  },
+  "RoadAccidents128_x264": {
+    "subset": "training",
+    "duration": 3.7,
+    "actions": [[3, 0, 3.7]]
+  },
+  "RoadAccidents131_x264": {
+    "subset": "training",
+    "duration": 2.0,
+    "actions": [[3, 0, 2.0]]
+  },
+  "RoadAccidents132_x264": {
+    "subset": "training",
+    "duration": 3.3,
+    "actions": [[3, 0, 3.3]]
+  },
+  "RoadAccidents133_x264": {
+    "subset": "training",
+    "duration": 6.0,
+    "actions": [[3, 0, 6.0]]
+  },
+  "Shooting002_x264": {
+    "subset": "training",
+    "duration": 2.7,
+    "actions": [[4, 0, 2.7]]
+  },
+  "Shooting008_x264": {
+    "subset": "training",
+    "duration": 8.0,
+    "actions": [[4, 0, 8.0]]
+  },
+  "Shooting013_x264": {
+    "subset": "training",
+    "duration": 2.8,
+    "actions": [[4, 0, 2.8]]
+  },
+  "Shooting015_x264": {
+    "subset": "testing",
+    "duration": 28.7,
+    "actions": [[4, 0, 28.7]]
+  },
+  "Shooting021_x264": {
+    "subset": "training",
+    "duration": 5.0,
+    "actions": [[4, 0, 5.0]]
+  },
+  "Shooting022_x264": {
+    "subset": "testing",
+    "duration": 15.0,
+    "actions": [[4, 0, 15.0]]
+  },
+  "Shooting024_x264": {
+    "subset": "testing",
+    "duration": 19.5,
+    "actions": [[4, 0, 19.5]]
+  },
+  "Shooting033_x264": {
+    "subset": "training",
+    "duration": 10.7,
+    "actions": [[4, 0, 10.7]]
+  },
+  "Shooting037_x264": {
+    "subset": "training",
+    "duration": 4.0,
+    "actions": [[4, 0, 4.0]]
+  },
+  "Stealing019_x264": {
+    "subset": "testing",
+    "duration": 2.0,
+    "actions": [[5, 0, 2.0]]
+  },
+  "Stealing036_x264": {
+    "subset": "training",
+    "duration": 11.0,
+    "actions": [[5, 0, 11.0]]
+  },
+  "Stealing058_x264": {
+    "subset": "testing",
+    "duration": 103.0,
+    "actions": [[5, 0, 103.0]]
+  },
+  "Stealing062_x264": {
+    "subset": "training",
+    "duration": 23.0,
+    "actions": [[5, 0, 23.0]]
+  },
+  "Stealing079_x264": {
+    "subset": "training",
+    "duration": 22.0,
+    "actions": [[5, 0, 22.0]]
+  },
+  "Vandalism007_x264": {
+    "subset": "training",
+    "duration": 17.0,
+    "actions": [[6, 0, 17.0]]
+  },
+  "Vandalism015_x264": {
+    "subset": "testing",
+    "duration": 23.0,
+    "actions": [[6, 0, 23.0]]
+  },
+  "Vandalism017_x264": {
+    "subset": "training",
+    "duration": 2.0,
+    "actions": [[6, 0, 2.0]]
+  },
+  "Vandalism028_x264": {
+    "subset": "training",
+    "duration": 5.0,
+    "actions": [[6, 0, 5.0]]
+  },
+  "Vandalism036_x264": {
+    "subset": "training",
+    "duration": 8.0,
+    "actions": [[6, 0, 8.0]]
+  },
+  "Normal_Videos_050_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_100_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_150_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_246_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_247_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_248_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_289_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_310_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_312_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_317_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_352_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_360_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_365_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_401_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_417_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_439_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_453_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_478_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_576_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_597_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_603_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_606_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_621_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_634_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_641_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_656_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_696_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_704_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_722_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_758_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_781_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_798_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_801_x264": {
+    "subset": "training",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_828_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_877_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_892_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_905_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_912_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_913_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_914_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  },
+  "Normal_Videos_929_x264": {
+    "subset": "testing",
+    "duration": 16.8,
+    "actions": [[7, 0, 16.8]]
+  }
+}
