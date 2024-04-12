@@ -1,0 +1,223 @@
+Length of training data: 59
+Length of testing data: 31
+Step 0/500
+----------
+val Loc Loss: 0.5688 Cls Loss: 0.5920 Tot Loss: 0.5804
+Step 7/500
+----------
+val Loc Loss: 0.4305 Cls Loss: 0.4563 Tot Loss: 0.4434
+Step 14/500
+----------
+val Loc Loss: 0.3583 Cls Loss: 0.3761 Tot Loss: 0.3672
+Step 21/500
+----------
+val Loc Loss: 0.3516 Cls Loss: 0.3601 Tot Loss: 0.3558
+Step 28/500
+----------
+val Loc Loss: 0.3468 Cls Loss: 0.3495 Tot Loss: 0.3481
+Step 35/500
+----------
+val Loc Loss: 0.3492 Cls Loss: 0.3511 Tot Loss: 0.3501
+Step 42/500
+----------
+val Loc Loss: 0.3365 Cls Loss: 0.3343 Tot Loss: 0.3354
+Step 49/500
+----------
+val Loc Loss: 0.3367 Cls Loss: 0.3348 Tot Loss: 0.3357
+Step 56/500
+----------
+val Loc Loss: 0.3411 Cls Loss: 0.3362 Tot Loss: 0.3386
+Step 63/500
+----------
+val Loc Loss: 0.3459 Cls Loss: 0.3412 Tot Loss: 0.3435
+Step 70/500
+----------
+val Loc Loss: 0.3460 Cls Loss: 0.3418 Tot Loss: 0.3439
+Step 77/500
+----------
+val Loc Loss: 0.3366 Cls Loss: 0.3332 Tot Loss: 0.3349
+Step 84/500
+----------
+val Loc Loss: 0.3249 Cls Loss: 0.3227 Tot Loss: 0.3238
+Step 91/500
+----------
+val Loc Loss: 0.3400 Cls Loss: 0.3370 Tot Loss: 0.3385
+Step 98/500
+----------
+train Loc Loss: 0.0590 Cls Loss: 0.0585 Tot Loss: 0.0588
+val Loc Loss: 0.3343 Cls Loss: 0.3299 Tot Loss: 0.3321
+Step 105/500
+----------
+val Loc Loss: 0.3367 Cls Loss: 0.3311 Tot Loss: 0.3339
+Step 112/500
+----------
+val Loc Loss: 0.3259 Cls Loss: 0.3212 Tot Loss: 0.3236
+Step 119/500
+----------
+val Loc Loss: 0.3257 Cls Loss: 0.3224 Tot Loss: 0.3241
+Step 126/500
+----------
+val Loc Loss: 0.3316 Cls Loss: 0.3280 Tot Loss: 0.3298
+Step 133/500
+----------
+val Loc Loss: 0.3175 Cls Loss: 0.3152 Tot Loss: 0.3163
+Step 140/500
+----------
+val Loc Loss: 0.3269 Cls Loss: 0.3217 Tot Loss: 0.3243
+Step 147/500
+----------
+val Loc Loss: 0.3296 Cls Loss: 0.3266 Tot Loss: 0.3281
+Step 154/500
+----------
+val Loc Loss: 0.3261 Cls Loss: 0.3208 Tot Loss: 0.3234
+Step 161/500
+----------
+val Loc Loss: 0.3194 Cls Loss: 0.3161 Tot Loss: 0.3178
+Step 168/500
+----------
+val Loc Loss: 0.3196 Cls Loss: 0.3154 Tot Loss: 0.3175
+Step 175/500
+----------
+val Loc Loss: 0.3178 Cls Loss: 0.3158 Tot Loss: 0.3168
+Step 182/500
+----------
+val Loc Loss: 0.3272 Cls Loss: 0.3246 Tot Loss: 0.3259
+Step 189/500
+----------
+val Loc Loss: 0.3147 Cls Loss: 0.3107 Tot Loss: 0.3127
+Step 196/500
+----------
+train Loc Loss: 0.1266 Cls Loss: 0.1258 Tot Loss: 0.1262
+val Loc Loss: 0.3252 Cls Loss: 0.3207 Tot Loss: 0.3230
+Step 203/500
+----------
+val Loc Loss: 0.3180 Cls Loss: 0.3140 Tot Loss: 0.3160
+Step 210/500
+----------
+val Loc Loss: 0.3201 Cls Loss: 0.3153 Tot Loss: 0.3177
+Step 217/500
+----------
+val Loc Loss: 0.3169 Cls Loss: 0.3144 Tot Loss: 0.3157
+Step 224/500
+----------
+val Loc Loss: 0.3073 Cls Loss: 0.3016 Tot Loss: 0.3045
+Step 231/500
+----------
+val Loc Loss: 0.3136 Cls Loss: 0.3088 Tot Loss: 0.3112
+Step 238/500
+----------
+val Loc Loss: 0.3167 Cls Loss: 0.3116 Tot Loss: 0.3141
+Step 245/500
+----------
+val Loc Loss: 0.3097 Cls Loss: 0.3071 Tot Loss: 0.3084
+Step 252/500
+----------
+val Loc Loss: 0.2997 Cls Loss: 0.2959 Tot Loss: 0.2978
+Step 259/500
+----------
+val Loc Loss: 0.3067 Cls Loss: 0.3018 Tot Loss: 0.3043
+Step 266/500
+----------
+val Loc Loss: 0.3122 Cls Loss: 0.3093 Tot Loss: 0.3108
+Step 273/500
+----------
+val Loc Loss: 0.2999 Cls Loss: 0.2975 Tot Loss: 0.2987
+Step 280/500
+----------
+val Loc Loss: 0.3061 Cls Loss: 0.3038 Tot Loss: 0.3049
+Step 287/500
+----------
+val Loc Loss: 0.3029 Cls Loss: 0.2997 Tot Loss: 0.3013
+Step 294/500
+----------
+train Loc Loss: 0.1544 Cls Loss: 0.1531 Tot Loss: 0.1538
+val Loc Loss: 0.2975 Cls Loss: 0.2944 Tot Loss: 0.2959
+Step 301/500
+----------
+val Loc Loss: 0.3009 Cls Loss: 0.2980 Tot Loss: 0.2995
+Step 308/500
+----------
+val Loc Loss: 0.3071 Cls Loss: 0.3046 Tot Loss: 0.3059
+Step 315/500
+----------
+val Loc Loss: 0.2959 Cls Loss: 0.2933 Tot Loss: 0.2946
+Step 322/500
+----------
+val Loc Loss: 0.3049 Cls Loss: 0.3014 Tot Loss: 0.3032
+Step 329/500
+----------
+val Loc Loss: 0.3058 Cls Loss: 0.3042 Tot Loss: 0.3050
+Step 336/500
+----------
+val Loc Loss: 0.3154 Cls Loss: 0.3134 Tot Loss: 0.3144
+Step 343/500
+----------
+val Loc Loss: 0.3039 Cls Loss: 0.2991 Tot Loss: 0.3015
+Step 350/500
+----------
+val Loc Loss: 0.3021 Cls Loss: 0.2997 Tot Loss: 0.3009
+Step 357/500
+----------
+val Loc Loss: 0.3043 Cls Loss: 0.2987 Tot Loss: 0.3015
+Step 364/500
+----------
+val Loc Loss: 0.3051 Cls Loss: 0.3001 Tot Loss: 0.3026
+Step 371/500
+----------
+val Loc Loss: 0.3002 Cls Loss: 0.2964 Tot Loss: 0.2983
+Step 378/500
+----------
+val Loc Loss: 0.3011 Cls Loss: 0.2992 Tot Loss: 0.3002
+Step 385/500
+----------
+val Loc Loss: 0.3036 Cls Loss: 0.2982 Tot Loss: 0.3009
+Step 392/500
+----------
+val Loc Loss: 0.3005 Cls Loss: 0.2957 Tot Loss: 0.2981
+Step 399/500
+----------
+train Loc Loss: 0.0247 Cls Loss: 0.0240 Tot Loss: 0.0244
+val Loc Loss: 0.3107 Cls Loss: 0.3095 Tot Loss: 0.3101
+Step 406/500
+----------
+val Loc Loss: 0.3102 Cls Loss: 0.3054 Tot Loss: 0.3078
+Step 413/500
+----------
+val Loc Loss: 0.3073 Cls Loss: 0.3010 Tot Loss: 0.3042
+Step 420/500
+----------
+val Loc Loss: 0.3088 Cls Loss: 0.3033 Tot Loss: 0.3061
+Step 427/500
+----------
+val Loc Loss: 0.3041 Cls Loss: 0.2999 Tot Loss: 0.3020
+Step 434/500
+----------
+val Loc Loss: 0.3051 Cls Loss: 0.2994 Tot Loss: 0.3022
+Step 441/500
+----------
+val Loc Loss: 0.3029 Cls Loss: 0.2993 Tot Loss: 0.3011
+Step 448/500
+----------
+val Loc Loss: 0.3084 Cls Loss: 0.3045 Tot Loss: 0.3065
+Step 455/500
+----------
+val Loc Loss: 0.3048 Cls Loss: 0.3004 Tot Loss: 0.3026
+Step 462/500
+----------
+val Loc Loss: 0.3070 Cls Loss: 0.3046 Tot Loss: 0.3058
+Step 469/500
+----------
+val Loc Loss: 0.3123 Cls Loss: 0.3065 Tot Loss: 0.3094
+Step 476/500
+----------
+val Loc Loss: 0.3036 Cls Loss: 0.2969 Tot Loss: 0.3002
+Step 483/500
+----------
+val Loc Loss: 0.2946 Cls Loss: 0.2918 Tot Loss: 0.2932
+Step 490/500
+----------
+val Loc Loss: 0.2970 Cls Loss: 0.2949 Tot Loss: 0.2960
+Step 497/500
+----------
+train Loc Loss: 0.0675 Cls Loss: 0.0664 Tot Loss: 0.0670
+val Loc Loss: 0.3014 Cls Loss: 0.2979 Tot Loss: 0.2997
