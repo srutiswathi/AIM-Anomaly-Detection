@@ -29,7 +29,7 @@ import numpy as np
 from pytorch_i3d import InceptionI3d
 from charades_dataset import Charades as Dataset
 
-def run(init_lr=0.01, max_steps=64e3, mode='rgb', root='/ssd/Charades_v1_rgb', train_split='charades/charades.json', batch_size=8*5, save_model='', num_classes=157):
+def run(init_lr=0.1, max_steps=64e3, mode='rgb', root='/ssd/Charades_v1_rgb', train_split='charades/charades.json', batch_size=8*5, save_model='', num_classes=157):
     # setup dataset
     train_transforms = transforms.Compose([videotransforms.RandomCrop(224),
                                            videotransforms.RandomHorizontalFlip()])
@@ -113,7 +113,7 @@ def run(init_lr=0.01, max_steps=64e3, mode='rgb', root='/ssd/Charades_v1_rgb', t
               optimizer.step()
               optimizer.zero_grad()
               lr_sched.step()
-              if steps % 100 == 0:
+              if steps % 200 == 0:
                 print('{} Loc Loss: {:.4f} Cls Loss: {:.4f} Tot Loss: {:.4f}'.format(phase, tot_loc_loss/(10*num_steps_per_update), tot_cls_loss/(10*num_steps_per_update), tot_loss/10))
                 # save model
                 torch.save(i3d.module.state_dict(), save_model+str(steps).zfill(6)+'.pt')
