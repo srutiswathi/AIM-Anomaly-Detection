@@ -15,6 +15,10 @@ Description
 | Zubiya Syeda          | _Developer_ |
 | Daniel Nguyen         | _Developer_ |
 
+## Contributions
+
+Description
+
 ## Dataset :floppy_disk:
 
 Description
