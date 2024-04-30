@@ -15,23 +15,23 @@ Description
 | Zubiya Syeda          | _Developer_ |
 | Daniel Nguyen         | _Developer_ |
 
-## Dataset
+## Dataset :floppy_disk:
 
 Description
 
-## Training
+## Training :robot:
 
 Description
 
-## Testing
+## Testing :mag:
 
 Description
 
-## Future Plans
+## Future Plans :chart_with_upwards_trend:
 
 Description
 
-## Credits
+## Credits :books:
 
 - Our model is based on Two-Stream Inflated 3D from [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://github.com/google-deepmind/kinetics-i3d)
 - [I3D PyTorch](https://github.com/piergiaj/pytorch-i3d/tree/master)
