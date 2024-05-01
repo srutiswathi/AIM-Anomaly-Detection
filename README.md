@@ -17,13 +17,38 @@ That is until **Zone Defend**. Zone Defend is an AI model designed to detect com
 | Zubiya Syeda          | _Developer_ |
 | Daniel Nguyen         | _Developer_ |
 
-## Contributions
+## Contributions :wave:
 
 Description
 
-## Try it out!
+## Try it out! :camera:
 
-Description
+1. In [demo.ipynb](https://github.com/srutiswathi/AIM-Anomaly-Detection/blob/main/demo.ipynb), resize your video
+```python
+resize_video(old_video_path, new_video_name, new_video_root = "./demo_videos")
+```
+
+2. Extract RGB and flow frames
+```python
+video_to_rgb(video_path, video_name, new_rgb_root = "./demo_rgb")
+video_to_flow(video_path, video_name, new_flow_root = "./demo_flow")
+```
+3. Finally, run the **Demo** section and see the predictions!
+```python
+Campfire
++---------------+-------------+
+|     Class     | Probability |
++---------------+-------------+
+|     Arson     |   0.93741   |
+|   Vandalism   |   0.05569   |
+| RoadAccidents |   0.00514   |
+|    Fighting   |   0.00074   |
+|    Assault    |   0.00060   |
+|    Shooting   |   0.00032   |
+|    Stealing   |   0.00007   |
+|     Normal    |   0.00004   |
++---------------+-------------+
+```
 
 ## Dataset :floppy_disk:
 
@@ -50,14 +75,31 @@ Our dataset consists of videos from [UCF-Crime](https://www.crcv.ucf.edu/project
 
 ## Training :robot:
 
-Description
+### Training 3
 
-### Training 3 Loss Graph
+#### Training 3 Details
+
+| Stat | Value |
+| ------------------- | ----------- |
+| Initial Learning Rate | 0.1 |
+| Max Steps | 5000 |
+| Batch Size | 10 |
+| Optimizer | SGD with momentum 0.9 |
+
+#### Training 3 Data Augmentation
+
+Video frames are resized to 240 pixels on the smaller side. During training phase, a 224 x 224 random crop and random horizontal flip is performed.
+
+#### Training 3 Loss Graph RGB
+![Training 3 Validation Loss](https://github.com/srutiswathi/AIM-Anomaly-Detection/blob/main/newmodels_info/Training1/validationlossrgb.png?raw=true)
+![Training 3 Training Loss](https://github.com/srutiswathi/AIM-Anomaly-Detection/blob/main/newmodels_info/Training1/traininglossrgb.png?raw=true)
+
+#### Training 3 Loss Graph Flow
 ![Training 3 Validation Loss](https://github.com/srutiswathi/AIM-Anomaly-Detection/blob/main/newmodels_info/Training1/validationlossflow.png?raw=true)
 ![Training 3 Training Loss](https://github.com/srutiswathi/AIM-Anomaly-Detection/blob/main/newmodels_info/Training1/traininglossflow.png?raw=true)
 
 ## Testing :mag:
-Testing consisted of selecting 8 videos from each category from our dataset (that was not used in training) for a total of 40 videos. Training 3 shows the most promising results with an average ROC AUC Score of 78%. As observed in [Quo Vadis](https://arxiv.org/abs/1705.07750), the I3D model greatly benefitted from starting with a model pretrained on Kinetics. 
+Testing consisted of selecting 5 videos from each category from our dataset (that was not used in training) for a total of 40 videos. Training 3 shows the most promising results with an average ROC AUC Score of 78%. As observed in [Quo Vadis](https://arxiv.org/abs/1705.07750), the I3D model greatly benefitted from starting with a model pretrained on Kinetics. 
 ### Training 3 (BEST) ROCAUC
 Training 3 started training on a Kinetics-pretrained I3D model.\
 ```ROC AUC SCORE: 78%```\
@@ -69,7 +111,9 @@ Training 4 started training on a blank I3D model.\
 
 ## Future Plans :chart_with_upwards_trend:
 
-Description
+- Increase dataset size
+- Real-world implementations
+- Partner with schools and universities
 
 ## Credits :books:
 
