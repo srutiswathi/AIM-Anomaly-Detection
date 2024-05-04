@@ -19,7 +19,13 @@ That is until **Zone Defend**. Zone Defend is an AI model designed to detect com
 
 ## Contributions :wave:
 
-Description
+- Clipped and annotated 100 videos from the UCF-Crime dataset for training
+- Resized videos and extracted RGB and optical flow frames
+- Trained and transferred learning from I3D model pretrained on ImageNet to our dataset
+- Clipped and annotated 40 videos from the UCF-Crime dataset for testing
+- Achieved a ROC-AUC score of 78% during Training 3
+- Created a demo to demonstrate the model on videos
+- Considered real-world applications and potential conflicts with privacy, monetization, etc
 
 ## Try it out! :camera:
 
